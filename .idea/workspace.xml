@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b29e15-5bb0-42fb-94f9-ccf6a125af93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rolling_med.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venmo_input/venmo-trans" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insight_testsuite/tests/test-1-venmo-trans/venmo_output/output.txt" afterPath="$PROJECT_DIR$/insight_testsuite/tests/test-1-venmo-trans/venmo_output/output.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rolling_med.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venmo_output/output.txt" afterPath="$PROJECT_DIR$/venmo_output/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.sh" afterPath="$PROJECT_DIR$/run.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venmo_input/venmo-trans.txt" afterPath="$PROJECT_DIR$/venmo_input/venmo-trans.txt" />
@@ -29,23 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rolling_median.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rolling_median.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rolling_median.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.026132405">
+            <state vertical-scroll-proportion="0.0">
               <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-              <folding>
-                <element signature="e#283#294#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="venmo-trans.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/venmo_input/venmo-trans.txt">
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21602787">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -55,7 +60,17 @@
         <entry file="file://$PROJECT_DIR$/venmo_output/output.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="venmo-trans.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,38 +79,8 @@
       <file leaf-file-name="run_tests.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/results.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7777777">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/venmo_output/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,8 +143,8 @@
         <option value="$PROJECT_DIR$/insight_testsuite/tests/test-2-venmo-trans/venmo_output/output.txt" />
         <option value="$PROJECT_DIR$/insight_testsuite/results.txt" />
         <option value="$PROJECT_DIR$/insight_testsuite/temp/venmo_output/output.txt" />
-        <option value="$PROJECT_DIR$/venmo_input/venmo-trans.txt" />
         <option value="$PROJECT_DIR$/venmo_output/output.txt" />
+        <option value="$PROJECT_DIR$/venmo_input/venmo-trans.txt" />
       </list>
     </option>
   </component>
@@ -167,7 +152,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
+    <option name="x" value="32" />
     <option name="y" value="22" />
     <option name="width" value="1248" />
     <option name="height" value="692" />
@@ -195,7 +180,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,71 +354,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight_testsuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight_testsuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="venmo_output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding-challenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight_testsuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="venmo_input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,7 +593,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="22" width="1248" height="692" extended-state="0" />
+    <frame x="32" y="22" width="1248" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -716,10 +639,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rolling_med.py">
+    <entry file="file://$PROJECT_DIR$/venmo_output/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="52" selection-start-line="69" selection-start-column="18" selection-end-line="72" selection-end-column="52" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test-1-venmo-trans/venmo_input/venmo-trans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test-1-venmo-trans/venmo_output/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,9 +683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#283#294#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -794,20 +748,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rolling_med.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rolling_median.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#283#294#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,13 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rolling_med.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -944,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -972,25 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rolling_med.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8085107">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.7777777">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,15 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/src/rolling_median.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,38 +921,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venmo_output/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/venmo_input/venmo-trans.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1058,14 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7777777">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test-1-venmo-trans/venmo_input/venmo-trans.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1074,37 +948,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/venmo_output/output.txt">
+    <entry file="file://$PROJECT_DIR$/venmo_input/venmo-trans.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venmo_output/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rolling_median.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026132405">
+        <state vertical-scroll-proportion="0.0">
           <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding>
-            <element signature="e#283#294#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21602787">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
