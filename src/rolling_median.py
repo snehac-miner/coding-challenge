@@ -2,10 +2,8 @@ __author__ = 'snehachalla'
 #date:  7/11/2016
 
 '''
-Use matrices
+
 O(n*n) to loop through the half triangular matrix to check for 60 sec window using timestamp stored here.
-Use dictionary to store row names
-Use hash map/dict to store degrees
 #Use adjacency list instead of matrices
 '''
 
@@ -197,13 +195,22 @@ class Transactions(object):
                 target = targets[1][2:-1]
                 target = target.strip() #strip it off white spaces
 
+                # Check if any of the actor , target or date values are missing
+                missing_value_flag = False
+                if key == '' or actor ==None:
+                    missing_value_flag = True
+                if  date_object == None:
+                    missing_value_flag = True
+                if target == '' or target == None:
+                    missing_value_flag = True
+
                 #If it is the first vertex in the graph set the maxtimestamp of the graph to current date object
-                if venmo_graph.numVertices==0 :
+                if venmo_graph.numVertices==0 and missing_value_flag==False :
                     venmo_graph.current_maxtimestamp = date_object
 
                 #If the timestamp of the incoming transaction falls within 60 secs of Graph current_maxtimestamp then
                 #flush the edges and add the edge
-                if (venmo_graph.checkWindowTimeGreaterThan60(date_object)==False):
+                if (venmo_graph.checkWindowTimeGreaterThan60(date_object)==False and missing_value_flag==False):
                     if venmo_graph.current_maxtimestamp < date_object:
                          venmo_graph.current_maxtimestamp = date_object
                          venmo_graph.flushgraph(date_object)
@@ -211,7 +218,7 @@ class Transactions(object):
                     venmo_graph.addEdge(key,target,date_object)
                     rolling_median.append(venmo_graph.median_degree())
                 # If incoming timestamp is out of 60 secs window them ignore the input and retain the same graph
-                if (venmo_graph.checkWindowTimeGreaterThan60(date_object)):
+                if (venmo_graph.checkWindowTimeGreaterThan60(date_object) and missing_value_flag==False):
                     rolling_median.append(rolling_median[-1])
 
                 # Send the current rolling medians to the output.txt file.
