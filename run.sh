@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
+#!/bin/sh
 
-# example of the run script for running the rolling_median calculation with a python file, 
-# but could be replaced with similar files from any major language
+# Run this script on your terminal from coding_challenge folder
 
-# I'll execute my programs, with the input directory venmo_input and output the files in the directory venmo_output
-python ./src/rolling_median.py ./venmo_input/venmo-trans.txt ./venmo_output/output.txt
+python src/rolling_median.py venmo_input/venmo-trans.txt  venmo_output/output.txt
 
-
+#python ./src/rolling_median.py ./venmo_input/venmo-trans.txt ./venmo_output/output.txt
 
